@@ -1,19 +1,19 @@
 import requests 
 from bs4 import BeautifulSoup
 import time
+import re
 
-keyword = "machine learing" #keyword want to search 
+
+URL = "https://www.pluralsight.com/browse/machine-learning" #link to the course
 
 def request():
-	URL = "https://www.edx.org/search?tab=course&q="+keyword
 	page = requests.get(URL)
-	soup = BeautifulSoup(page.content, 'lxml')
-	tag = soup.find(lambda tag: tag.name == 'div' )
-	print(page)
-	print(tag)
-	#tables = soup.find_all('ul')
-	#initialCount = len(tables)
-	#return initialCount	
+	soup = BeautifulSoup(page.text, "html.parser")
+	url = soup.find_all('a',class_="course-item columns")
+	links=[]
+	for links in url:
+		print(links.get('href')) #getting link
+
 
 request()
 

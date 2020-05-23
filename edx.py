@@ -4,16 +4,18 @@ import time
 import re
 
 
-URL = "https://www.pluralsight.com/browse/machine-learning" #link to the course
+URL = "https://www.pluralsight.com/content/pluralsight/en/search.html?categories=course&q=Machine%20Learning" #link to the course
 
 def request():
 	page = requests.get(URL)
 	soup = BeautifulSoup(page.text, "html.parser")
-	url = soup.find_all('a',class_="course-item columns")
+	url = soup.find_all('div')
 	links=[]
+	c=1
 	for links in url:
-		print(links.get('href')) #getting link
-
+		print(links) #getting link
+		c+=1
+	print("totel ",c)
 
 request()
 

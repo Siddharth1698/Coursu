@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Corsu</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+    <meta name="google-signin-client_id"
+        content="909863808299-4m7m54pnij440n78jqiu83hlmngorcdv.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+
+<body>
+
+    <body>
+        <header class="toppage">
+            <div>
+                <h1 class="header">Welcome to the Incredible journey of learning with Coursu
+
+                    <div>
+                        <img class="logo"
+                            src="https://instagram.fjai4-1.fna.fbcdn.net/v/t51.2885-19/s150x150/61622335_2320053614931088_9031988341389656064_n.jpg?_nc_ht=instagram.fjai4-1.fna.fbcdn.net&_nc_ohc=ZCp3Kr8VBBMAX_oAWCS&oh=3757d051a48d36cb45381099de862fa6&oe=5EF28432"
+                            alt="">
+                    </div>
+                </h1>
+
+            </div>
+
+        </header>
+
+        <section class="login">
+            <form>
+                <div class="box">
+                    <div class="image">
+                        <img src="https://instagram.fjai4-1.fna.fbcdn.net/v/t51.2885-19/s150x150/61622335_2320053614931088_9031988341389656064_n.jpg?_nc_ht=instagram.fjai4-1.fna.fbcdn.net&_nc_ohc=ZCp3Kr8VBBMAX_oAWCS&oh=3757d051a48d36cb45381099de862fa6&oe=5EF28432"
+                            alt="user">
+                    </div>
+                    <div class="head">
+                        <h4>Login</h4>
+                    </div>
+
+
+                    <div class="form-fields">
+
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter Email" class="form-control" id="email_field">
+                            <span><img src="email.png" /></span>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="password" placeholder="password" class="form-control" id="password_field">
+                            <span><img src="password.png" /></span>
+                        </div>
+
+
+
+                        <div class="button-box">
+                            <button type="submit" onclick="login()">Login</button>
+                            <a href="">Forgot Password?</a>
+                        </div>
+
+                        <div class="social-links">
+                            <p>or login with</p>
+                            <div class="Links-box">
+
+                                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                                <script>
+                                    function onSignIn(googleUser) {
+                                        // Useful data for your client-side scripts:
+                                        console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+                                        var profile = googleUser.getBasicProfile();
+                                        console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+                                        console.log('Full Name: ' + profile.getName());
+                                        console.log('Given Name: ' + profile.getGivenName());
+                                        console.log('Family Name: ' + profile.getFamilyName());
+                                        console.log("Image URL: " + profile.getImageUrl());
+                                        console.log("Email: " + profile.getEmail());
+
+                                        document.getElementById('profile info').innerHTML = profile.getName + "<br>"
+                                            + "<a href = 'mailto:'" + profile.getEmail() + ">" + profile.getEmail() + "</a" + "<br>"
+                                            + "<img src = '" + profile.getImageUrl() + "'/>";
+
+
+                                        // The ID token you need to pass to your backend:
+                                        var id_token = googleUser.getAuthResponse().id_token;
+                                        console.log("ID Token: " + id_token);
+                                    }
+                                </script>
+                                <a href="#" onclick="signOut();">Sign out</a>
+                                <script>
+                                    function signOut() {
+                                        var auth2 = gapi.auth2.getAuthInstance();
+                                        auth2.signOut().then(function () {
+                                            console.log('User signed out.');
+                                        });
+                                    }
+                                </script>
+
+
+
+                                <!-- The core Firebase JS SDK is always required and must be listed first -->
+                                <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+
+                                <!-- TODO: Add SDKs for Firebase products that you want to use
+                                    https://firebase.google.com/docs/web/setup#available-libraries -->
+                                <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
+
+                                <script>
+                                    // Your web app's Firebase configuration
+                                    var firebaseConfig = {
+                                        apiKey: "AIzaSyDk_nJa2X_cTwg7AjQt0CIkrHLaz5xoIOo",
+                                        authDomain: "coursu-6cdf3.firebaseapp.com",
+                                        databaseURL: "https://coursu-6cdf3.firebaseio.com",
+                                        projectId: "coursu-6cdf3",
+                                        storageBucket: "coursu-6cdf3.appspot.com",
+                                        messagingSenderId: "52469842267",
+                                        appId: "1:52469842267:web:c79d6ad0c879e282069a7e",
+                                        measurementId: "G-2TJKVXM6XC"
+                                    };
+                                    // Initialize Firebase
+                                    firebase.initializeApp(firebaseConfig);
+                                    firebase.analytics();
+                                </script>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </form>
+        </section>
+
+
+
+
+    </body>
+
+</html>

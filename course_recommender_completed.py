@@ -53,5 +53,5 @@ sorted_similar_courses = sorted(similar_courses,key=lambda x:x[1],reverse=True)[
 
 ## Step 8: Print titles of 5 courses
 
-pickle.dump(similar_courses,open("model.pkl","wb"))
+pickle.dump(sorted_similar_courses,open("model.pkl","wb"))
 model = pickle.load((open('model.pkl','rb')))

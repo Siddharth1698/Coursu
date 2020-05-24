@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
+  <title>My Status</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -16,39 +16,84 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body style="margin:30px;">
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color">
+  <a class="navbar-brand" href="#">Coursu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+    aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">
+          <i class="fas fa-book-open"></i> My Status
+
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-briefcase"></i> Activity</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-sign-out-alt"></i> Logout</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
+<body>
 
   <!-- Start your project here-->
   <!-- Card -->
-  <div class="card">
+  <div class="card" style="margin:15px;">
 
 
     <!-- Card content -->
     <div class="card-body">
 
       <!-- Title -->
-      <h4 class="card-title"><a>Card title</a></h4>
+      <h4 class="card-title"><a>Completed Courses</a></h4>
       <!-- Text -->
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-        content.</p>
+      <ol>
+      <h6 >Basic Technical Analysis: Learn the structure of the market -Udemy</h6>
+        <h6 >Create A Business From Home Trading Stocks Today In 2017 -Udemy</h6>
+          <h6 >Natural Language Processing in TensorFlow -Coursera</h6>
+          <h6>Neural Networks and Deep Learning -Coursera</h6>
+          <h6>Operating Systems and You: Becoming a Power User -Coursera</h6>
+          <h6>Investment Crowdfunding 101 (a.k.a Equity Crowdfunding) -Udemy</h6>
+          <h6>"Build, Train, and Deploy Machine Learning Models with Amazon SageMaker -Pluralsight</h6>
+          <h6>AI Product Manager -Udacity</h6>
+          <h6>AI for Healthcare -Udacity</h6>
       <!-- Button -->
-      <a href="#" class="btn btn-primary">Button</a>
+    </ol>
 
-    </div>
 
-  </div>
-  <!-- Card -->
-  <!-- /Start your project here-->
+</div>
+</div>
 
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+<div class="card" style="margin:15px;">
+
+
+  <!-- Card content -->
+  <div class="card-body">
+
+    <!-- Title -->
+    <h4 class="card-title"><a>Wishlist Courses</a></h4>
+    <!-- Text -->
+    <ol>
+    <h6 >Complete PHP Course With Bootstrap3 CMS System & Admin Panel -Udemy</h6>
+        <h6>What is Data Science? -Coursera</h6>
+
+    <!-- Button -->
+  </ol>
+
+
+
+</div>
+</div>
 </body>
-
 </html>

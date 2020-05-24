@@ -1,0 +1,207 @@
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+    outline: none!important;
+    text-align: none!important;
+}
+
+.header{
+    text-align: center;
+    color: cyan;
+    flex-direction: row;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo{
+
+    border-radius:15%;
+    height: 50px;
+    width: 50px;
+    align-self: auto;
+}
+
+.login{
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.login .box{
+    min-width: 400px;
+    min-height: 450px;
+    background-color: lightgrey;
+    box-shadow: 0px 0px 10px #cccccc ;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.login .box .image img{
+    width: 80px;
+    display: block;
+    margin: auto;
+    
+
+    
+}
+
+
+.login .box .head h4{
+    color: #0089fe;
+    font-size: 22px;
+    
+    
+    margin: 15px 20px 20px;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+    
+    display: inline-block;
+}
+
+.login .box .form-fields{
+
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+
+
+.login .box .form-fields .input-box{
+
+position: relative;
+margin:20px;
+width: 100%;
+
+}
+.login .box .form-fields .input-box .form-control{
+
+    height: 40px;
+    width: 90%;
+    padding: 0px 0px 0px 45px;
+    color: #444444;
+    border: 1px solid #cccccc;
+}
+
+.login .box .form-fields .input-box .form-control::placeholder{
+
+
+    color: #cccccc;
+
+}
+.login .box .form-fields .input-box span{
+
+    position: absolute;
+    Left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+
+}
+.login .box .form-fields .input-box span img{
+    width:   22px;
+}
+
+.login .box .form-fields .button-box{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.login .box .form-fields .button-box button{
+
+columns: #ffffff;
+font-size: 16px;
+padding: 8px 35px;
+background-color: #0089fe;
+transition: box-shadow .2s ease;
+border: none;
+cursor: pointer;
+margin-left: 20px;
+
+}
+
+.login .box .form-fields .button-box  button:hover{
+    box-shadow: 0px 0px 10px gray ;
+
+}
+
+.login .box .form-fields .button-box a{
+
+
+    font-size: 16px;
+    color: #0089fe;
+    padding-left: 10px;
+
+}
+.login .box .social-links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.login .box .social-links  p{
+    text-align: center;
+    color: #cccccc;
+    font-size: 14px;
+    margin: 20px 0px 15px;
+}
+
+
+.login .box .social-links .Links-box{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.login .box  .social-links .Links-box a{
+    color: #ffffff;
+    padding:8px;
+    width: calc(33.33% -15px);
+    font-size: 14px;
+    text-align: center;
+    transition: box-shadow .5s ease;
+
+}
+.login .box .social-links .Links-box a:hover{
+
+    box-shadow: 0px 0px 10px gray;
+}
+
+.login .box .social-links .Links-box {
+    
+    padding-left: 40%;
+}
+
+    
+/*responsive*/
+@media(max-width:500px){
+    .login .box{
+        min-width: 100%;
+    }
+}
+.login form{
+    min-width: 100%;
+}

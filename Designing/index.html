@@ -1,148 +1,101 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Corsu</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-
-    <meta name="google-signin-client_id"
-        content="909863808299-4m7m54pnij440n78jqiu83hlmngorcdv.apps.googleusercontent.com">
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Coursu</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
 </head>
+
+
+
 
 <body>
 
-    <body>
-        <header class="toppage">
-            <div>
-                <h1 class="header">Welcome to the Incredible journey of learning with Coursu
-
-                    <div>
-                        <img class="logo"
-                            src="https://instagram.fjai4-1.fna.fbcdn.net/v/t51.2885-19/s150x150/61622335_2320053614931088_9031988341389656064_n.jpg?_nc_ht=instagram.fjai4-1.fna.fbcdn.net&_nc_ohc=ZCp3Kr8VBBMAX_oAWCS&oh=3757d051a48d36cb45381099de862fa6&oe=5EF28432"
-                            alt="">
-                    </div>
-                </h1>
-
-            </div>
-
-        </header>
-
-        <section class="login">
-            <form>
-                <div class="box">
-                    <div class="image">
-                        <img src="https://instagram.fjai4-1.fna.fbcdn.net/v/t51.2885-19/s150x150/61622335_2320053614931088_9031988341389656064_n.jpg?_nc_ht=instagram.fjai4-1.fna.fbcdn.net&_nc_ohc=ZCp3Kr8VBBMAX_oAWCS&oh=3757d051a48d36cb45381099de862fa6&oe=5EF28432"
-                            alt="user">
-                    </div>
-                    <div class="head">
-                        <h4>Login</h4>
-                    </div>
-
-
-                    <div class="form-fields">
-
-                        <div class="input-box">
-                            <input type="text" placeholder="Enter Email" class="form-control" id="email_field">
-                            <span><img src="email.png" /></span>
-                        </div>
-
-                        <div class="input-box">
-                            <input type="password" placeholder="password" class="form-control" id="password_field">
-                            <span><img src="password.png" /></span>
-                        </div>
+  <!-- Start your project here-->
 
 
 
-                        <div class="button-box">
-                            <button type="submit" onclick="login()">Login</button>
-                            <a href="">Forgot Password?</a>
-                        </div>
+  <!--Card-->
+  <div class="card" id="hello" style=" width: 530px;  margin-left: auto; margin-top: 20px;
+    margin-right: auto;  "
+    >
 
-                        <div class="social-links">
-                            <p>or login with</p>
-                            <div class="Links-box">
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="https://www.talentlms.com/wp-content/uploads/2018/10/talentlms-content-library.png" class="img-fluid" alt="MDB Quick Start">
+      <a href="#">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
 
-                                <div class="g-signin2" data-onsuccess="onSignIn"></div>
-                                <script>
-                                    function onSignIn(googleUser) {
-                                        // Useful data for your client-side scripts:
-                                        console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-                                        var profile = googleUser.getBasicProfile();
-                                        console.log("ID: " + profile.getId()); // Don't send this directly to your server!
-                                        console.log('Full Name: ' + profile.getName());
-                                        console.log('Given Name: ' + profile.getGivenName());
-                                        console.log('Family Name: ' + profile.getFamilyName());
-                                        console.log("Image URL: " + profile.getImageUrl());
-                                        console.log("Email: " + profile.getEmail());
+    <!--Card content-->
+    <!-- Material form login -->
 
-                                        document.getElementById('profile info').innerHTML = profile.getName + "<br>"
-                                            + "<a href = 'mailto:'" + profile.getEmail() + ">" + profile.getEmail() + "</a" + "<br>"
-                                            + "<img src = '" + profile.getImageUrl() + "'/>";
+  <!-- Material form login -->
 
+  <!-- Default form register -->
+<form class="text-center border border-light p-5" action="#!">
 
-                                        // The ID token you need to pass to your backend:
-                                        var id_token = googleUser.getAuthResponse().id_token;
-                                        console.log("ID Token: " + id_token);
-                                    }
-                                </script>
-                                <a href="#" onclick="signOut();">Sign out</a>
-                                <script>
-                                    function signOut() {
-                                        var auth2 = gapi.auth2.getAuthInstance();
-                                        auth2.signOut().then(function () {
-                                            console.log('User signed out.');
-                                        });
-                                    }
-                                </script>
+    <p class="h4 mb-4">Create an account on Course</p>
 
+    <div class="form-row mb-4">
+        <div class="col">
+            <!-- First name -->
+            <input type="text" required id="defaultRegisterFormFirstName" class="form-control" placeholder="Name">
+        </div>
+
+    </div>
+
+    <!-- E-mail -->
+    <input type="email" required id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+    <!-- Password -->
+    <input type="password" required id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+  
+
+    <!-- Phone number -->
+    <input type="text" required id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
 
 
-                                <!-- The core Firebase JS SDK is always required and must be listed first -->
-                                <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+    <!-- Newsletter -->
 
-                                <!-- TODO: Add SDKs for Firebase products that you want to use
-                                    https://firebase.google.com/docs/web/setup#available-libraries -->
-                                <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
 
-                                <script>
-                                    // Your web app's Firebase configuration
-                                    var firebaseConfig = {
-                                        apiKey: "AIzaSyDk_nJa2X_cTwg7AjQt0CIkrHLaz5xoIOo",
-                                        authDomain: "coursu-6cdf3.firebaseapp.com",
-                                        databaseURL: "https://coursu-6cdf3.firebaseio.com",
-                                        projectId: "coursu-6cdf3",
-                                        storageBucket: "coursu-6cdf3.appspot.com",
-                                        messagingSenderId: "52469842267",
-                                        appId: "1:52469842267:web:c79d6ad0c879e282069a7e",
-                                        measurementId: "G-2TJKVXM6XC"
-                                    };
-                                    // Initialize Firebase
-                                    firebase.initializeApp(firebaseConfig);
-                                    firebase.analytics();
-                                </script>
+    <!-- Sign up button -->
+    <button class="btn btn-info my-4 btn-block" type="submit">Sign in</button>
+
+
+
+</form>
+<!-- Default form register -->
+
+
+  </div>
+  <!--/.Card-->
 
 
 
 
-                            </div>
-                        </div>
-                    </div>
+  <!-- /Start your project here-->
 
-                </div>
-
-
-            </form>
-        </section>
-
-
-
-
-    </body>
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
 
 </html>

@@ -3,6 +3,7 @@
 <br/>
 **Coursu** is a simple, fully featured and highly recommendend online learing platform that recomends courses either free/paid according to the users intrest and helps him/her to find the most suitable course. 
 It deployes machine learning recommendation system to get the users the news feed like they would want to learn.
+![Coursu](coursu.png)
 
 **Designing** :
 This includes all the files related to the website developed by us. We have used Firebase as an backend and MDBootstrap as an frontend tool for this deployment. The authentication is performed by Firebase version 6.3.1

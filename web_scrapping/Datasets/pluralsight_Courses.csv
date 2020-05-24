@@ -1,0 +1,181 @@
+,course_title,course_link,course_level
+55,AWS Networking Deep Dive: Virtual Private Cloud (VPC),/courses/aws-networking-deep-dive-vpc,Intermediate
+7,Accelerated Introduction to C++,/courses/accelerated-introduction-cpp,Advanced
+84,Advanced Machine Learning with ENCOG,/courses/advanced-machine-learning-encog,Advanced
+67,Advanced Machine Learning with ENCOG - Part 2,/courses/advanced-machine-learning-encog-pt2,Advanced
+149,Advanced Network Security on AWS,/courses/advanced-networking-security-aws,Advanced
+153,Advanced SQL Queries in Oracle and SQL Server,/courses/adv-sql-queries-oracle-sql-server,Intermediate
+9,Angular Crash Course,/courses/angular-crash-course,Intermediate
+26,AngularJS Fundamentals,/courses/angularjs-fundamentals,Intermediate
+119,Ansible Fundamentals,/courses/ansible-fundamentals,Intermediate
+39,Architecting Google Cloud Storage Configurations,/courses/google-cloud-architecting-storage-configurations,Beginner
+114,Azure Kubernetes Service (AKS) – The Big Picture,/courses/azure-container-service-big-picture,Beginner
+162,Azure SQL Data Warehouse: First Look,/courses/azure-sql-data-warehouse-first-look,Beginner
+176,Big Data on Amazon Web Services,/courses/big-data-amazon-web-services,Intermediate
+76,"Build, Train, and Deploy Machine Learning Models with Amazon SageMaker",/courses/aws-sagemaker-machine-learning-models,Advanced
+64,Building Machine Learning Models in Python with scikit-learn,/courses/python-scikit-learn-building-machine-learning-models,Beginner
+63,Building Machine Learning Models in Spark 2,/courses/spark-2-building-machine-learning-models,Intermediate
+177,Building Streaming Data Pipelines in Microsoft Azure,/courses/microsoft-azure-building-streaming-data-pipelines,Intermediate
+43,Building a Cloud-Based iOS Application With Parse Framework,/courses/building-cloud-based-ios-app-parse,Intermediate
+5,Building an Angular Application with Node and Token Authentication,/courses/building-angular-application-node-token-authentication,Intermediate
+49,CCSP®: Cloud Platform Security,/courses/ccsp-cloud-platform-security,Intermediate
+51,CCSP®: Cloud Security Operations Controls,/courses/ccsp-cloud-security-operations-controls,Intermediate
+111,Cisco Core Security: Network Security Fundamentals,/courses/cisco-core-security-network-security,Intermediate
+30,Cloud Computing: The Big Picture,/courses/cloud-computing-big-picture,Beginner
+50,Cloud Design Patterns for Azure: Data Management and Performance,/courses/azure-design-patterns-data-management-performance,Intermediate
+35,Cloud: Executive Briefing,/courses/cloud-executive-briefing,Beginner
+20,Code with Us: Angular Quick Start,/courses/code-with-us-angular-quick-start,Beginner
+94,Computer Fundamentals: Virtualization and Cloud Computing,/courses/computer-fundamentals-virtualization-cloud-computing,Beginner
+38,Computer Fundamentals: Virtualization and Cloud Computing,/courses/computer-fundamentals-virtualization-cloud-computing,Beginner
+32,Configuration and Deployment for the Cloud,/courses/configuration-deployment-cloud-cv0-002,Beginner
+54,Connecting On-premises Networks with Azure Virtual Networks,/courses/microsoft-azure-on-premises-networks-virtual-networks-connecting,Advanced
+1,Core Python: Organizing Larger Programs,/courses/core-python-organizing-larger-programs,Intermediate
+8,"Creating Apps With AngularJS, Node, and Token Authentication",/courses/creating-apps-angular-node-token-authentication,Intermediate
+80,Creating Machine Learning Models,/courses/creating-machine-learning-models,Intermediate
+158,Data Analytics: Hands On,/courses/data-analytics-hands-on,Beginner
+170,"Delivering the MDW with Azure SQL Data Warehouse, Azure Databricks, Azure Data Factory and PBI",/courses/microsoft-ignite-session-18,Advanced
+59,"Deploy Azure Virtual Networks, VPNs, and Gateways",/courses/manage-azure-virtual-networks-vpn-gateway,Intermediate
+83,Deploying Machine Learning Solutions,/courses/deploying-machine-learning-solutions,Advanced
+169,Deploying Microsoft Azure SQL Data Warehouse and Azure SQL Database,/courses/microsoft-azure-sql-data-warehouse-sql-database-deploying,Intermediate
+166,Design a Database Structure with SQL Server 2014 (70-465),/courses/design-database-structure-sql-server-2014-70-465,Intermediate
+74,Designing a Machine Learning Model,/courses/designing-machine-learning-model,Intermediate
+120,Designing and Implementing Security Policies,/courses/security-policies-designing-implementing,Beginner
+68,Designing and Implementing Solutions Using Google Machine Learning APIs,/courses/google-machine-learning-apis-designing-implementing-solutions,Beginner
+143,Ethical Hacking: Buffer Overflow,/courses/ethical-hacking-buffer-overflow,Beginner
+34,Ethical Hacking: Cloud Computing,/courses/ethical-hacking-cloud-computing,Beginner
+138,Ethical Hacking: Cloud Computing,/courses/ethical-hacking-cloud-computing,Beginner
+81,Ethical Hacking: Understanding Ethical Hacking,/courses/ethical-hacking-understanding,Beginner
+140,Ethical Hacking: Understanding Ethical Hacking,/courses/ethical-hacking-understanding,Beginner
+103,Examining Cisco Video Conferencing Fundamentals,/courses/examining-cisco-video-conferencing-fundamentals,Intermediate
+77,Experimental Design for Data Analysis,/courses/experimental-design-data-analysis,Intermediate
+110,Foundational TCP Analysis with Wireshark,/courses/foundational-tcp-analysis-wireshark,Intermediate
+40,Fundamentals of Azure Cloud Services and Storage,/courses/azure-cloud-services-storage-fundamentals,Intermediate
+91,Fundamentals of Cloud Computing,/courses/cloud-computing-fundamentals,Beginner
+31,Fundamentals of Cloud Computing,/courses/cloud-computing-fundamentals,Beginner
+102,Fundamentals of Using Cisco ACI,/courses/cisco-aci-fundamentals,Beginner
+145,GDPR: The Big Picture,/courses/gdpr-big-picture,Beginner
+22,Getting Started With Java EE on WebSphere® Application Server,/courses/java-ee-websphere-application-server-getting-started,Beginner
+28,Getting Started in Podcasting,/courses/getting-started-podcasting,Beginner
+16,Getting Started with IntelliJ CE,/courses/intellij-ce-getting-started,Beginner
+24,Getting Started with Mainframe COBOL,/courses/cobol-mainframe-getting-started,Beginner
+106,Getting Started with NetScaler 12 Essentials,/courses/netscaler-essentials-getting-started,Intermediate
+137,Getting Started with Nmap,/courses/nmap-getting-started,Beginner
+141,Getting Started with OWASP Zed Attack Proxy (ZAP) for Web Application Penetration Testing,/courses/owasp-zap-web-app-pentesting-getting-started,Intermediate
+10,Getting Started with Python Concurrency,/courses/python-concurrency-getting-started,Beginner
+164,Getting Started with Your First SQL Server Instance,/courses/sql-server-first-instance-getting-started,Beginner
+3,Getting Started with the Python Standard Library,/courses/python-standard-library-getting-started,Beginner
+53,Getting Started with vRealize Automation 7,/courses/getting-started-vrealize-automation-7,Beginner
+118,Google Cloud Fundamentals for AWS Professionals,/courses/google-cloud-aws-professionals,Intermediate
+117,Google Cloud Fundamentals for Azure Professionals,/courses/google-cloud-azure-windows-professionals,Beginner
+36,Google Cloud Platform Fundamentals - Core Infrastructure,/courses/google-cloud-platform-fundamentals-core-infrastructure,Intermediate
+97,Google Cloud Platform Fundamentals - Core Infrastructure,/courses/google-cloud-platform-fundamentals-core-infrastructure,Intermediate
+93,Group Policy Fundamentals,/courses/group-policy-fundamentals,Intermediate
+88,How Google Does Machine Learning,/courses/how-google-does-machine-learning,Intermediate
+62,How Machine Learning Works,/courses/how-machine-learning-works,Beginner
+66,How to Think About Machine Learning Algorithms,/courses/machine-learning-algorithms,Beginner
+126,ISO/IEC 27001 Information Security: The Big Picture,/courses/iso-iec-27001-information-security,Beginner
+125,Identity and Access Management for CompTIA Security+,/courses/comptia-security-plus-identity-access-management,Beginner
+23,Implementing and Understanding Data Structures in Java,/courses/java-data-structures-implementing-understanding,Intermediate
+134,Information Security Manager: Information Security Program Management,/courses/infosec-manager-information-security-program-management,Intermediate
+127,Internet of Things (IoT) Security: The Big Picture,/courses/security-internet-of-things-big-picture,Beginner
+29,Introduction to Developing Applications with IBM Bluemix,/courses/ibm-bluemix-applications,Beginner
+57,Introduction to Developing Applications with IBM Bluemix,/courses/ibm-bluemix-applications,Beginner
+96,Introduction to Docker on Windows with Visual Studio 2017,/courses/docker-visual-studio-2017-windows,Beginner
+48,Introduction to Microsoft Cloud Services,/courses/introduction-microsoft-cloud-services,Beginner
+142,Introduction to Penetration Testing Using Metasploit,/courses/metasploit-penetration-testing-introduction,Beginner
+160,Introduction to SQL Server,/courses/intro-sql-server,Beginner
+12,Introduction to Sequelize ORM for Node.js,/courses/sequelize-orm-nodejs-introduction,Intermediate
+2,Introduction to Testing in Java,/courses/java-testing-introduction,Beginner
+4,Java EE: Getting Started with JavaServer Faces,/courses/javaserver-faces-getting-started-java-ee,Intermediate
+0,Java Fundamentals: The Java Language,/courses/java-fundamentals-language,Beginner
+41,Java Microservices with Spring Cloud: Coordinating Services,/courses/java-microservices-spring-cloud-coordinating-services,Intermediate
+17,Java SE: XML Processing Fundamentals,/courses/java-se-xml-processing-fundamentals,Intermediate
+115,LFCE: Advanced Linux Networking,/courses/linux-networking-advanced-lfce,Intermediate
+86,Launching into Machine Learning,/courses/launching-machine-learning,Intermediate
+13,Learning To Program - Part 2: Abstractions,/courses/learning-programming-abstractions-python,Beginner
+112,Linux Administration with sed and awk,/courses/linux-administration-sed-awk,Intermediate
+85,Machine Learning Simplified: From Ideation to Deployment with Azure Machine Learning,/courses/microsoft-ignite-session-42,Beginner
+82,Machine Learning for Business Professionals,/courses/machine-learning-business-professionals,Beginner
+73,Machine Learning: Executive Briefing,/courses/machine-learning-executive-briefing,Beginner
+46,Maintenance in the Cloud,/courses/maintenance-cloud-plus-cv0-002,Beginner
+173,Manage Office Data with SharePoint 2013,/courses/manage-office-data-sharepoint-2013,Intermediate
+107,Managing Cisco Networks via Infrastructure as Code,/courses/managing-cisco-networks-infrastructure-as-code,Beginner
+52,Managing Microsoft Azure Subscriptions,/courses/microsoft-azure-subscriptions-managing,Beginner
+87,Microsoft Azure Batch: Fundamentals,/courses/microsoft-azure-batch-fundamentals,Intermediate
+89,Modeling with AWS Machine Learning,/courses/modeling-aws-machine-learning,Advanced
+100,Network Security Basics,/courses/network-security-fundamentals,Beginner
+128,Network Security Monitoring (NSM) with Security Onion,/courses/security-onion-network-security-monitoring,Beginner
+124,OWASP Top 10 Web Application Security Risks for ASP.NET,/courses/owasp-top10-aspdotnet-application-security-risks,Intermediate
+147,Operationalizing Cyber Threat Intel: Pivoting & Hunting,/courses/operationalizing-cyber-threat-intel-pivoting-hunting,Intermediate
+37,Oracle Compute Cloud Service Foundations,/courses/oracle-compute-cloud-service-foundations,Intermediate
+159,"Oracle PL/SQL: Transactions, Dynamic SQL & Debugging",/courses/oracle-plsql-transactions-dynamic-sql-debugging,Intermediate
+131,Physical Security,/courses/physical-security,Intermediate
+18,Play By Play: Angular Internationalization with John Papa and Brian Clark,/courses/play-by-play-angular-internationalization-john-papa-brian-clark,Intermediate
+65,Play by Play: Machine Learning Exposed,/courses/play-by-play-machine-learning-exposed,Beginner
+123,Play by Play: Website Security Review with Troy Hunt and Lars Klint,/courses/play-by-play-website-security-review-troy-hunt-lars-klint,Intermediate
+161,PostgreSQL Data Manipulation Playbook,/courses/postgresql-data-manipulation-playbook,Intermediate
+155,PostgreSQL: Introduction to SQL Queries,/courses/postgresql-sql-queries-introduction,Beginner
+175,Power BI Data Import Playbook,/courses/power-bi-data-import-playbook,Beginner
+172,Practical SQL Server High Availability and Disaster Recovery,/courses/sql-server-high-availability-disaster-recovery,Intermediate
+60,Preparing Data for Machine Learning,/courses/preparing-data-machine-learning,Beginner
+56,Preparing for the Google Cloud Associate Cloud Engineer Exam,/courses/preparing-google-cloud-associate-cloud-engineer-exam,Beginner
+72,Production Machine Learning Systems,/courses/production-machine-learning-systems,Advanced
+47,Providing Secure Cloud Applications,/courses/providing-secure-cloud-applications,Intermediate
+21,Python – Beyond the Basics,/courses/python-beyond-basics,Intermediate
+6,Python: The Big Picture,/courses/python-big-picture,Beginner
+99,Red Hat Enterprise Linux Shell Fundamentals,/courses/red-hat-enterprise-linux-shell-fundamentals,Beginner
+146,Risk Management,/courses/risk-management,Beginner
+19,Ruby Fundamentals,/courses/ruby-fundamentals,Intermediate
+135,Running the Business of Information Security,/courses/running-business-information-security,Advanced
+150,SQL Data Wrangling in Oracle: Table Data,/courses/sql-data-wrangling-oracle-tables,Intermediate
+163,SQL Server 2008 Administration (70-432): Part 2,/courses/sql-server-2008-administration-pt2,Intermediate
+168,SQL Server 2008 Advanced Database Administration: Part 3,/courses/sql-server-2008-advanced-dba-pt3,Advanced
+171,SQL Server 2008 Database Development (70-433) Part 1,/courses/sql-server-2008-database-development-pt1,Intermediate
+157,SQL Server 2012 Database Administration (70-462) Part 3,/courses/sql-2012-database-administration-pt3,Intermediate
+167,SQL Server 2014 Administration New Features,/courses/sql-server-2014-admin-new-features,Intermediate
+179,SQL Server 2014 DMV Diagnostic Queries - Part 2,/courses/sql-server-2014-dmv-diagnostic-queries-part2,Intermediate
+165,SQL Server on Microsoft Azure IaaS - Optimizations & High Availability,/courses/sql-server-windows-azure-iaas-optimize,Intermediate
+178,SQL Server: Analyzing Query Performance for Developers,/courses/sqlserver-query-performance-developers,Beginner
+174,SQL Server: Benchmarking and Baselining,/courses/sqlserver-benchmarking,Intermediate
+156,SQL Server: Transact-SQL Basic Data Modification,/courses/sqlserver-datamodification,Beginner
+154,SQL on Hadoop - Analyzing Big Data with Hive,/courses/sql-hadoop-analyzing-big-data-hive,Intermediate
+71,Scalable Machine Learning with the Microsoft Machine Learning Server,/courses/scalable-machine-learning-microsoft-server,Advanced
+42,"Securing Cloud DevOps in PaaS, IaaS, and SaaS Settings",/courses/cloud-devops-securing-paas-iaas-saas,Intermediate
+129,Security Architecture,/courses/security-architecture,Intermediate
+148,Security Controls and Control Frameworks,/courses/security-controls-frameworks,Intermediate
+132,Security Engineering,/courses/security-engineering,Intermediate
+101,Security Enhanced Linux (SELinux) Fundamentals,/courses/security-enhanced-linux-selinux-fundamentals,Beginner
+133,Security Event Triage: Operationalizing Security Analysis,/courses/security-event-triage-operationalizing-security-analysis,Beginner
+130,Security Operations,/courses/security-operations,Intermediate
+122,Security for Hackers and Developers: Reverse Engineering,/courses/reverse-engineering-security-hackers-developers,Intermediate
+144,Setting Up a Malware Analysis Lab,/courses/setting-up-malware-analysis-lab,Intermediate
+45,Setting up a Cloud Solution Environment on Google Cloud,/courses/cloud-solution-environment-google-cloud,Beginner
+113,SharePoint Conference '19: Flowverload: The World's Greatest Intro to Microsoft Flow,/courses/sharepoint-conference-2019-session-13,Intermediate
+98,System Center Orchestrator 2012 R2 Fundamentals,/courses/system-center-orchestrator-2012-r2-fundamentals,Beginner
+152,T-SQL Data Manipulation Playbook,/courses/t-sql-data-manipulation-playbook,Intermediate
+109,TCP and UDP Operation for Cisco CCNA 200-125/100-105,/courses/tcp-udp-cisco-ccna-200-125-200-105,Intermediate
+105,TCP/IP and Networking Fundamentals for Sysadmins,/courses/tcp-ip-networking-fundamentals-sysadmins,Beginner
+75,TensorFlow: Getting Started,/courses/tensorflow-getting-started,Beginner
+121,The Information Security Big Picture,/courses/information-security-big-picture,Beginner
+104,Troubleshooting with Wireshark: Fundamental Protocol Analysis,/courses/wireshark-protocol-analysis-troubleshooting,Intermediate
+69,Understanding Machine Learning,/courses/understanding-machine-learning,Beginner
+61,Understanding Machine Learning with Python,/courses/python-understanding-machine-learning,Beginner
+70,Understanding Machine Learning with R,/courses/r-understanding-machine-learning,Beginner
+78,Understanding and Applying Linear Regression,/courses/understanding-applying-linear-regression,Beginner
+27,Understanding the Java Virtual Machine: Memory Management,/courses/understanding-java-vm-memory-management,Intermediate
+25,Unit Testing in Angular,/courses/unit-testing-angular,Beginner
+44,VMware Certified Associate - Cloud (VCA-Cloud),/courses/vca-cloud,Beginner
+33,VMware Cloud on AWS Fundamentals,/courses/vmware-cloud-on-aws-fundamentals,Intermediate
+90,VMware Cloud on AWS Fundamentals,/courses/vmware-cloud-on-aws-fundamentals,Intermediate
+92,VMware NSX for vSphere Introduction and Installation,/courses/vmware-nsx-intro-installation,Intermediate
+79,Visualizing Statistical Data Using Seaborn,/courses/seaborn-visualizing-statistical-data,Beginner
+139,Web App Hacking: Hacking Authentication,/courses/hacking-authentication-web-app,Beginner
+11,What's New in Java 12,/courses/java-12-whats-new,Intermediate
+14,What's New in Java 9,/courses/java-9-whats-new,Intermediate
+136,What's New in the OWASP Top 10 for 2013,/courses/owasp-top-10-whats-new-2013,Intermediate
+15,What’s New in Java 11: Long-term Support,/courses/java-11-whats-new,Intermediate
+108,Windows Performance Monitoring Fundamentals,/courses/windows-performance-monitoring-fundamentals,Beginner
+95,Windows PowerShell Toolmaking Fundamentals,/courses/powershell-toolmaking-fundamentals,Intermediate
+58,Windows Server 2012 R2 (70-413) Server Deployment,/courses/windows-server-2012-70-413-server-deployment,Intermediate
+116,Windows Server Administration Fundamentals Using PowerShell,/courses/windows-server-administration-fundamentals-using-powershell,Beginner
+151,Working With Temporal Data in SQL Server,/courses/working-with-temporal-data-sql-server,Intermediate

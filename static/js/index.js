@@ -16,15 +16,18 @@ firebase.analytics();
 firebase.auth.Auth.Persistence.LOCAL;
 
 $("#btn-login").click(function (){
-  var email = $(#email).val();
-  var password = $(#password).val();
+
+  var email = $(this.#email).val();
+  var password = $(this.#password).val();
 
   if (email != "" && password != ""){
 
     var result = firebase.auth().signInWithEmailAndPassword(email, password);
-    result.catch(function (error))
+    result.catch(function (error){})
+  
+  }
 
-  }else {
+  else {
     window.alert("not able to sign in");
   }
 

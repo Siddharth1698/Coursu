@@ -2031,6 +2031,7 @@ pre code {
 }
 
 .form-control {
+  margin-bottom: 1.5rem;
   display: block;
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);

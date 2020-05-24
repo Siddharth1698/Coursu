@@ -24,12 +24,17 @@ def request(URL):	#Req function
 	url = soup.find_all('a',class_="course-item columns") #course details class
 	links=[]
 	for links in url:
-		print(links.get('href')) #link collection
+		courseTitle = links.find('div', class_="course-item__title").get_text()	#course title
+		courseLevel = links.find('div', class_="course--item__list course-item__level").get_text()
+		courseLink = links.get('href')	#course link
+		print(courseTitle," " ,courseLevel," " ,courseLink)
 #Req fn End
 
 
 for i in range(len(stack)):
 	link = baseURL+stack[i]
 	request(link)
-	print("\n")
+
+
+
 

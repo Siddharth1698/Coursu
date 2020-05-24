@@ -52,9 +52,6 @@ similar_courses = list(enumerate(cosine_sim[course_index]))
 sorted_similar_courses = sorted(similar_courses,key=lambda x:x[1],reverse=True)[1:]
 
 ## Step 8: Print titles of 5 courses
-i=0
-for element in sorted_similar_courses:
-		print (get_title_from_index(element[0]))
-		i=i+1
-		if i>5:
-			break
+
+pickle.dump(similar_courses,open("model.pkl","wb"))
+model = pickle.load((open('model.pkl','rb')))

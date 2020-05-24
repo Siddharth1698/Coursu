@@ -14,13 +14,13 @@ def predict():
     '''
     For rendering results on HTML GUI
     '''
-    int_features = [int(x) for x in request.form.values()]
-    final_features = [np.array(int_features)]
+    features = [x for x in request.form.values()]
+    final_features = [np.array(features)]
     prediction = model.predict(final_features)
 
     output = round(prediction[0], 2)
 
-    return render_template('my_status.html', prediction_text='recommanded courses are {}'.format(output))
+    return render_template('main_screen.html', prediction_text='recommanded courses are {}'.format(output))
 
 @app.route('/predict_api',methods=['POST'])
 def predict_api():

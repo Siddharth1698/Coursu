@@ -14,6 +14,19 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
+
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-analytics.js"></script>
+
+
 </head>
 
 
@@ -46,34 +59,27 @@
   <!-- Default form register -->
 <form class="text-center border border-light p-5" action="#!">
 
-    <p class="h4 mb-4">Create an account on Course</p>
+    <p class="h4 mb-4">Start or Resume Learning</p>
 
-    <div class="form-row mb-4">
-        <div class="col">
-            <!-- First name -->
-            <input type="text" required id="defaultRegisterFormFirstName" class="form-control" placeholder="Name">
-        </div>
 
-    </div>
 
     <!-- E-mail -->
-    <input type="email" required id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+    <input type="email" name="email" required id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
 
     <!-- Password -->
-    <input type="password" required id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
-  
+    <input type="password" name="password" required id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+
 
     <!-- Phone number -->
-    <input type="text" required id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
 
 
     <!-- Newsletter -->
 
 
-    <!-- Sign up button -->
-    <button class="btn btn-info my-4 btn-block" type="submit">Sign in</button>
+    <!-- Sign in button -->
+    <button class="btn btn-info my-4 btn-block" href="main_screen.html" id ="btn-login" type="submit">Sign in</button>
 
-
+<a class="btn btn-info my-4 btn-block" href="main_screen.html"  type="ansub">Anonymous Sign in</a>
 
 </form>
 <!-- Default form register -->
@@ -96,6 +102,14 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <script src="index.js">
+
+  firebase.auth.onAuthStateChanged(function(user)){
+    if(user){
+      window.location.href="main_screen.html"
+    }
+  }</script>
 </body>
 
 </html>

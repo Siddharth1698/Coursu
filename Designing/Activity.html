@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>My Activity</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color">
+  <a class="navbar-brand" href="#">Coursu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+    aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">
+          <i class="fas fa-book-open"></i> My Status
+
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-briefcase"></i> Activity</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-sign-out-alt"></i> Logout</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+<body>
+
+  <div class="container">
+    <div class="row" style="margin-top:50px;
+    margin-bottom:100px;">
+      <div class="col-4">
+        <!-- Card -->
+<div class="card">
+
+  <!-- Card image -->
+
+
+  <!-- Card content -->
+  <div class="card-body">
+
+    <!-- Title -->
+    <h4 class="card-title"><a>15</a></h4>
+    <!-- Text -->
+    <p class="card-text">Coursu's Completed</p>
+    <!-- Button -->
+
+  </div>
+
+</div>
+<!-- Card -->
+      </div>
+      <div class="col-4">
+        <!-- Card -->
+  <div class="card">
+
+    <!-- Card image -->
+
+
+    <!-- Card content -->
+    <div class="card-body">
+
+      <!-- Title -->
+      <h4 class="card-title"><a>3</a></h4>
+      <!-- Text -->
+      <p class="card-text">Wishlist</p>
+      <!-- Button -->
+
+
+    </div>
+
+  </div>
+  <!-- Card -->
+      </div>
+      <div class="col-4">
+        <!-- Card -->
+<div class="card">
+
+  <!-- Card image -->
+
+
+  <!-- Card content -->
+  <div class="card-body">
+
+    <!-- Title -->
+    <h4 class="card-title"><a>8</a></h4>
+    <!-- Text -->
+    <p class="card-text">My Level</p>
+    <!-- Button -->
+
+
+  </div>
+
+</div>
+<!-- Card -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+<h6 class="text-center">Diffrent platforms of coursu completion</h6>
+  <div class="col-8" style="margin-left:250px;">
+    <canvas id="myChart"></canvas>
+  </div>
+  <!-- Start your project here-->
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+
+      </div>
+      <div class="col-6">
+  
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+<script>
+  var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, {
+type: 'bar',
+data: {
+labels: ["Udacity", "Udemy", "Pluralsight", "Coursera"],
+datasets: [{
+label: '# of Votes',
+data: [2, 7, 1, 5],
+backgroundColor: [
+'rgba(255, 99, 132, 0.2)',
+'rgba(54, 162, 235, 0.2)',
+'rgba(255, 206, 86, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(153, 102, 255, 0.2)',
+'rgba(255, 159, 64, 0.2)'
+],
+borderColor: [
+'rgba(255,99,132,1)',
+'rgba(54, 162, 235, 1)',
+'rgba(255, 206, 86, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(153, 102, 255, 1)',
+'rgba(255, 159, 64, 1)'
+],
+borderWidth: 1
+}]
+},
+options: {
+scales: {
+yAxes: [{
+ticks: {
+beginAtZero: true
+}
+}]
+}
+}
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+
+</html>

@@ -1,3 +1,5 @@
+**The application is under construction and has few bugs to be fixed**
+
 # Coursu
 :star: Star us on GitHub - Feel free to contribute!<br/>
 <br/>
